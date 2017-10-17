@@ -1,12 +1,14 @@
 package com.sbt.javaschool;
 
+import com.sbt.javaschool.api.Person;
+import com.sbt.javaschool.impl.PersonImpl;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class PersonImplTest extends Assert {
-    private Person person1 = new Person(true, "Oleg");
-    private Person person2 = new Person(false, "Sveta");
-    private Person person3 = new Person(true, "Sergey");
+    private Person person1 = new PersonImpl(true, "Oleg");
+    private Person person2 = new PersonImpl(false, "Sveta");
+    private Person person3 = new PersonImpl(true, "Sergey");
 
     @Test
     public void marry() throws Exception {
