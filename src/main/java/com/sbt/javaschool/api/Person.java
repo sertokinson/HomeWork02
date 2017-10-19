@@ -12,7 +12,7 @@ public interface Person {
 
     /**
      * Returns true - if person is man, false - if person is woman
-     * @return true - if person is man.
+     * @return true - if person is man./
      */
     boolean isMan();
 
